@@ -5,14 +5,14 @@
     o Note that the branches labled `series/0x` correspond to the different video lectures
 
 ### Installed Plugins
-[X] lazy.nvim
-[X] kanagawa.nvim
-[X] mini.statusline
-[X] oil.nvim
-[X] Basic options 
-[X] vim-sleuth
-[X] editorconf
-[X] treesitter.nvim
+- [X] lazy.nvim
+- [X] kanagawa.nvim
+- [X] mini.statusline
+- [X] oil.nvim
+- [X] Basic options 
+- [X] vim-sleuth
+- [X] editorconf
+- [X] treesitter.nvim
 
 - lazy.nvim is a package manager for nvim and is used to install plugins. It executes the init.lua file in the config nvim directory which can be determined by typing `echo stdpath("config")` in the normal mode in nvim
 
