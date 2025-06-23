@@ -11,8 +11,17 @@
 - [X] oil.nvim
 - [X] Basic options 
 - [X] vim-sleuth
-- [X] editorconf
+- [X] editorconfing
 - [X] treesitter.nvim
+- [X] blink-cmp
+- [X] diffview-nvim
+- [X] dressing
+- [X] fzflua
+- [X] gitsigns
+- [X] lsp
+- [X] project
+- [X] showkeys
+- [X] which-key
 
 - lazy.nvim is a package manager for nvim and is used to install plugins. It executes the init.lua file in the config nvim directory which can be determined by typing `echo stdpath("config")` in the normal mode in nvim
 

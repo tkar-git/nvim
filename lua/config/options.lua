@@ -5,7 +5,7 @@ vim.opt.softtabstop = 4 -- How many spaces are applied when pressing Tab
 
 vim.opt.smarttab = true
 vim.opt.smartindent = true
-vim.opt.autoindent = true -- Keep identation from previous line
+vim.opt.autoindent = false-- Keep identation from previous line
 
 -- Enable break indent
 vim.opt.breakindent = true
