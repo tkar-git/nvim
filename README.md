@@ -13,13 +13,14 @@
 - [X] vim-sleuth
 - [X] editorconfing
 - [X] treesitter.nvim
+- [X] fzflua (intall of fzf and ripgrep)
+- [X] mason
 - [X] blink-cmp
 - [X] diffview-nvim
 - [X] dressing
-- [X] fzflua
 - [X] gitsigns
 - [X] lsp
-- [X] project
+- [X] project.nvim
 - [X] showkeys
 - [X] which-key
 

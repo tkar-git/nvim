@@ -56,40 +56,40 @@ return {
             end,
             desc = "[F]ind current [W]ORD",
         },
-        -- {
-        --     "<leader>fd",
-        --     function()
-        --         require("fzf-lua").diagnostics_document()
-        --     end,
-        --     desc = "[F]ind [D]iagnostics",
-        -- },
-        -- {
-        --     "<leader>fr",
-        --     function()
-        --         require("fzf-lua").resume()
-        --     end,
-        --     desc = "[F]ind [R]esume",
-        -- },
-        -- {
-        --     "<leader>fo",
-        --     function()
-        --         require("fzf-lua").oldfiles()
-        --     end,
-        --     desc = "[F]ind [O]ld Files",
-        -- },
-        -- {
-        --     "<leader><leader>",
-        --     function()
-        --         require("fzf-lua").buffers()
-        --     end,
-        --     desc = "[,] Find existing buffers",
-        -- },
-        -- {
-        --     "<leader>/",
-        --     function()
-        --         require("fzf-lua").lgrep_curbuf()
-        --     end,
-        --     desc = "[/] Live grep the current buffer",
-        -- },
+        {
+            "<leader>fd",
+            function()
+                require("fzf-lua").diagnostics_document()
+            end,
+            desc = "[F]ind [D]iagnostics",
+        },
+        {
+            "<leader>fr",
+            function()
+                require("fzf-lua").resume()
+            end,
+            desc = "[F]ind [R]esume",
+        },
+        {
+            "<leader>fo",
+            function()
+                require("fzf-lua").oldfiles()
+            end,
+            desc = "[F]ind [O]ld Files",
+        },
+        {
+            "<leader><leader>",
+            function()
+                require("fzf-lua").buffers()
+            end,
+            desc = "[,] Find existing buffers",
+        },
+        {
+            "<leader>/",
+            function()
+                require("fzf-lua").lgrep_curbuf()
+            end,
+            desc = "[/] Live grep the current buffer",
+        },
     }
 }
